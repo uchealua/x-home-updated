@@ -1,0 +1,181 @@
+.right-sidebar{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: white;
+  width: 500px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: lightgray;
+}
+
+.search-bar{
+  position: relative;
+  width: 340px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(245, 245, 245);
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.search-bar::placeholder{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  padding-left: 40px;
+}
+
+.search-icon{
+  height: 18px;
+  position: absolute;
+  z-index: 100;
+  margin-left: 43px;
+  margin-top: 20px;
+}
+
+.subscribe-container{
+  height: 150px;
+  width: 330px;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+  padding-left: 12px;
+  padding-top: 2px;
+}
+
+.subscribe-heading{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.subscribe-info{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+  line-height: 17px;
+}
+
+.subscribe-button{
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: opacity .15s;
+}
+
+.subscribe-button:hover{
+  opacity: 0.8;
+}
+
+.trend-container{
+  height: 650px;
+  width: 330px;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+  padding-left: 12px;
+  padding-top: 2px;
+}
+
+.trend-heading{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.trend-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: -10px;
+  cursor: pointer;
+}
+
+.trend-info:hover{
+  background-color: rgb(235, 233, 233);
+}
+
+.trend-industry{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #555;
+}
+
+.trend-topic{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.trend-stats{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  margin-top: 0;
+  color: #555;
+}
+
+.trend-more{
+  height: 20px;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.trend-more:hover{
+  background-color: rgb(210, 214, 218);
+}
+
+.more-option-trend, .timeline-settings-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.more-option-trend .tooltip, .timeline-settings-container .tooltip{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  font-size: 12px;
+  padding: 3px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 200;
+  bottom: -25px;
+  right: 5px;
+}
+
+.more-option-trend:hover .tooltip, .timeline-settings-container:hover .tooltip{
+  opacity: 1;
+}
+
+.inbox-container{
+  display: flex;
+  position: absolute;
+  width: 300px;
+  z-index: 500;
+  background-color: lightblue;
+}
