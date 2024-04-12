@@ -1,2 +1,1 @@
-#this is a X (formerly twitter) web homepage replica
-#it was created and modified by the github account owner
+this is a X (formerly twitter) web homepage replica which was created and modified by the account owner
